@@ -1,6 +1,22 @@
 <html>
-
+<marquee>
     <head>
+        <link rel="stylesheet" href="style.css">
+        <style>header
+            {
+            width: 100%;
+            height: 80px;
+            background-color: #ccc;
+            color: #66f;
+            padding-top: 20px;
+        }
+        body{
+            margin: 0px;
+            text-align: center;
+        }
+
+
+            </style>
         <title>Notes Page | Color</title>
     </head>
     <body background="assets/bg.png">
@@ -18,16 +34,34 @@
                 <a href="layout.html">Layout</a>
             </div>
         </nav>
-        <main>
-            <section>
-                
+        <main style="background-color: rgba(0,0,0,1); font-weight: bolder;">
+            <section style="color: rgb(255, 255, 255); background-color: rgba(255,255,255,0.5);">
+                <p style="color: #f00;">There are 3 ways to do color<br>
+                - name<br>
+                - hex<br>
+                - styles using rgba</p>
+                <p>name is limited to 140 defined names that you can lookup</p>
+                <p style="font-style: italic;">If you use hex, you have 16,777,216<br>
+                - syntax: you are going to use a # in front of the color
+                - web safe colors use repeated values</p> 
+                <p>RGBA which stands for: Red, Green, Blue, Alpha<br>- can only be used with stylesheets<br>- Syntax will be rgba(0-255, 0-255, 0-255, 0-1) (the alpha is assumed 1)</p>
+                <h3>3 Ways to Apply Styles</h3>
+                <p>The 3 ways to apply styles to a block of html<br>
+                    -Hijack HTML Tag<br>
+                    -Define a Class and Apply it
+                    -Define an ID and then apply it
+
+                </p>
+
             </section>
             <aside>
-                
             </aside>
         </main>
-        <footer>
-            
+        <footer style="border-width: 2px; color: white; border-style: solid; ">
+            <span style="border: 2px solid;">
+                &copy;Anthony Berube | 2025
+            </span>            
         </footer>
     </body>
+</marquee>
 </html>
